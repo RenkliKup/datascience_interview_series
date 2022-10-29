@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+Answer
+------------------------
+
+select sum(title) from comments inner join posts on posts.id==comments.post_id group by posts.subreddit_id
